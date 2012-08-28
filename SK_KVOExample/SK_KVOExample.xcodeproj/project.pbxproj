@@ -15,6 +15,8 @@
 		B4E7A47B15ECD86C00C96BBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E7A47A15ECD86C00C96BBB /* AppDelegate.m */; };
 		B4E7A47E15ECD86C00C96BBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E7A47D15ECD86C00C96BBB /* ViewController.m */; };
 		B4E7A48115ECD86C00C96BBB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4E7A47F15ECD86C00C96BBB /* ViewController.xib */; };
+		B4E7A48915ECDAA800C96BBB /* SKIncrementalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E7A48815ECDAA800C96BBB /* SKIncrementalView.m */; };
+		B4E7A48B15ECDDF600C96BBB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E7A48A15ECDDF600C96BBB /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		B4E7A47C15ECD86C00C96BBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B4E7A47D15ECD86C00C96BBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B4E7A48015ECD86C00C96BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B4E7A48715ECDAA800C96BBB /* SKIncrementalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKIncrementalView.h; sourceTree = "<group>"; };
+		B4E7A48815ECDAA800C96BBB /* SKIncrementalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKIncrementalView.m; sourceTree = "<group>"; };
+		B4E7A48A15ECDDF600C96BBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E7A48B15ECDDF600C96BBB /* QuartzCore.framework in Frameworks */,
 				B4E7A46B15ECD86C00C96BBB /* UIKit.framework in Frameworks */,
 				B4E7A46D15ECD86C00C96BBB /* Foundation.framework in Frameworks */,
 				B4E7A46F15ECD86C00C96BBB /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +73,7 @@
 		B4E7A46915ECD86C00C96BBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4E7A48A15ECDDF600C96BBB /* QuartzCore.framework */,
 				B4E7A46A15ECD86C00C96BBB /* UIKit.framework */,
 				B4E7A46C15ECD86C00C96BBB /* Foundation.framework */,
 				B4E7A46E15ECD86C00C96BBB /* CoreGraphics.framework */,
@@ -82,6 +89,8 @@
 				B4E7A47C15ECD86C00C96BBB /* ViewController.h */,
 				B4E7A47D15ECD86C00C96BBB /* ViewController.m */,
 				B4E7A47F15ECD86C00C96BBB /* ViewController.xib */,
+				B4E7A48715ECDAA800C96BBB /* SKIncrementalView.h */,
+				B4E7A48815ECDAA800C96BBB /* SKIncrementalView.m */,
 				B4E7A47115ECD86C00C96BBB /* Supporting Files */,
 			);
 			path = SK_KVOExample;
@@ -163,6 +172,7 @@
 				B4E7A47715ECD86C00C96BBB /* main.m in Sources */,
 				B4E7A47B15ECD86C00C96BBB /* AppDelegate.m in Sources */,
 				B4E7A47E15ECD86C00C96BBB /* ViewController.m in Sources */,
+				B4E7A48915ECDAA800C96BBB /* SKIncrementalView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

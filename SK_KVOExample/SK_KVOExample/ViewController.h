@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SKIncrementalView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+}
+- (IBAction)action:(id)sender;
 
 @end
